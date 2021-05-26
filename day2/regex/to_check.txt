@@ -1,0 +1,5 @@
+my $str = "This is a cat caat thatt fattttt maatatt and haatt\n";
+$str =~ s/([at]+)/M$1M/g;
+print $str;
+##result
+# $str = This is MaM cMatM cMaatM MtMhMattM fMatttttM mMaatattM MaMnd hMaattM
